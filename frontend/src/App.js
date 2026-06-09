@@ -1,8 +1,23 @@
+import Header from "./components/Header";
+import ProjectOverview from "./components/ProjectOverview";
+import MathematicalModel from "./components/MathematicalModel";
+import Calculator from "./components/Calculator";
+import Footer from "./components/Footer";
+
+import "./App.css";
+
 function App() {
   return (
-    <div>
-      <h1>GitHub Host</h1>
-      <p>React is working.</p>
+    <div className="container">
+      <Header />
+
+      <ProjectOverview />
+
+      <MathematicalModel />
+
+      <Calculator />
+
+      <Footer />
     </div>
   );
 }
