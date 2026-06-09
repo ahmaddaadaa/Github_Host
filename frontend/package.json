@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ahmaddaadaa.github.io/GitHub-Host",
+  "homepage": "https://ahmaddaadaa.github.io/Github_Host/",
   "eslintConfig": {
     "extends": [
       "react-app",
