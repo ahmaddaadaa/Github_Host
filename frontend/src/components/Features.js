@@ -53,12 +53,11 @@ function Features() {
         </article>
 
         <article className="card">
-          <h3>Early interface testing</h3>
+          <h3>Approximate feature results validated</h3>
           <p>
-            During development, Ahmad also tested feature classification on an
-            Artix-7 board together with an ESP32. That path was used for
-            communication and software-to-hardware testing, not as the final
-            product.
+            Approximate feature results were validated on the test path:
+            classification matched the exact-arithmetic path closely enough to
+            confirm that resource savings do not sacrifice usable accuracy.
           </p>
         </article>
       </div>

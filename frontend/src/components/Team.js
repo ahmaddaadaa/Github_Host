@@ -11,8 +11,8 @@ const members = [
   },
   {
     name: "Ahmad Daadaa",
-    role: "PC interface & web front end",
-    bio: "Handles the PC-FPGA interface and front end. Also tested feature classification on Artix-7 with ESP32 during early communication bring-up.",
+    role: "Front-end & back-end development",
+    bio: "Worked with the team on front-end and back-end development for the project interface and host path. Also used an Artix-7 board with ESP32 during early communication and feature-classification testing.",
   },
   {
     name: "Colin Harpe",

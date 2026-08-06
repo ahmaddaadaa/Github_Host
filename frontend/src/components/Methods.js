@@ -51,10 +51,13 @@ function Methods() {
           <div>
             <h3>Host interface</h3>
             <p>
-              A PC host loads model parameters, sends digit images, starts
-              inference, and reads the class results back. During early testing,
-              Ahmad also exercised an Artix-7 + ESP32 setup to debug
-              software-to-hardware communication.
+              Front-end and back-end work with the team supports loading model
+              parameters, sending digit images, starting inference, and reading
+              results back. Early Artix-7 + ESP32 testing helped bring up the
+              communication path. Approximate feature results were validated on
+              the test path: classification matched the exact-arithmetic path
+              closely enough to confirm that resource savings do not sacrifice
+              usable accuracy.
             </p>
           </div>
         </li>

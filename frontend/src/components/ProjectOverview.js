@@ -50,10 +50,11 @@ function ProjectOverview() {
             <li>Demo videos of the working system</li>
           </ul>
           <p className="note">
-            Final product is the handwriting classifier on the Nexys A7. Ahmad
-            also used an Artix-7 + ESP32 setup earlier to test communication and
-            feature classification paths, but that was only for bring-up /
-            testing.
+            Approximate feature results were validated on the test path:
+            classification matched the exact-arithmetic path closely enough to
+            confirm that resource savings do not sacrifice usable accuracy. Early
+            Artix-7 + ESP32 work was used for communication and feature testing;
+            the final product is the handwriting classifier on the Nexys A7.
           </p>
         </article>
       </div>
