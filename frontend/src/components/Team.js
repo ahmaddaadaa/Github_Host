@@ -1,9 +1,5 @@
+// order matches left-to-right in the team photo
 const members = [
-  {
-    name: "Stephen Drake",
-    role: "Approximate arithmetic",
-    bio: "Works on approximate arithmetic designs to cut logic usage and improve efficiency, while keeping the ML error low.",
-  },
   {
     name: "Michaiah Williams",
     role: "FPGA HDL implementation",
@@ -18,6 +14,11 @@ const members = [
     name: "Colin Harpe",
     role: "ML model & HLS support",
     bio: "Looks after model evaluation / selection for FPGA inference and supports HLS investigation and implementation work.",
+  },
+  {
+    name: "Stephen Drake",
+    role: "Approximate arithmetic",
+    bio: "Works on approximate arithmetic designs to cut logic usage and improve efficiency, while keeping the ML error low.",
   },
 ];
 
@@ -45,7 +46,7 @@ function Team() {
           alt="ECE 499 Group 3 team photo"
         />
         <p className="team-photo-caption">
-          Group 3 — Stephen Drake, Michaiah Williams, Ahmad Daadaa, Colin Harpe
+          Group 3 — Michaiah Williams, Ahmad Daadaa, Colin Harpe, Stephen Drake
         </p>
       </div>
 
