@@ -1,3 +1,5 @@
+<!-- ECE 499 Group 3 project site: FPGA ML Inference Engine Using Approximate Computing. Static page for the final handwriting classifier deliverable (Nexys A7). Live: https://ahmaddaadaa.github.io/Github_Host/ -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
