@@ -1,22 +1,26 @@
 import Header from "./components/Header";
+import Intro from "./components/Intro";
+import Features from "./components/Features";
 import ProjectOverview from "./components/ProjectOverview";
-import MathematicalModel from "./components/MathematicalModel";
-import Calculator from "./components/Calculator";
+import Methods from "./components/Methods";
+import Demos from "./components/Demos";
+import Team from "./components/Team";
 import Footer from "./components/Footer";
-
 import "./App.css";
 
+// static project page for our ECE 499 final deliverable
 function App() {
   return (
-    <div className="container">
+    <div className="app">
       <Header />
-
-      <ProjectOverview />
-
-      <MathematicalModel />
-
-      <Calculator />
-
+      <main>
+        <Intro />
+        <Features />
+        <ProjectOverview />
+        <Methods />
+        <Demos />
+        <Team />
+      </main>
       <Footer />
     </div>
   );

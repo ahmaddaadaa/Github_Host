@@ -1,16 +1,18 @@
 function Header() {
   return (
-    <header className="hero">
-      <h1>Approximate Arithmetic Explorer</h1>
-
-      <p className="subtitle">
-        ECE 499 Design Project • University of Victoria
-      </p>
-
-      <p>
-        Exploring the trade-off between arithmetic accuracy
-        and FPGA hardware efficiency.
-      </p>
+    <header className="site-header">
+      <div className="site-header-inner">
+        <a href="#intro" className="brand">
+          FPGA ML Inference
+        </a>
+        <nav className="nav">
+          <a href="#features">Features</a>
+          <a href="#overview">Overview</a>
+          <a href="#methods">Methods</a>
+          <a href="#demos">Demos</a>
+          <a href="#team">Team</a>
+        </nav>
+      </div>
     </header>
   );
 }

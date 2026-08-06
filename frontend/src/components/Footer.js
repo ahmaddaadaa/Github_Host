@@ -1,8 +1,13 @@
 function Footer() {
   return (
-    <footer>
-      ECE 499 Design Project •
-      University of Victoria
+    <footer className="site-footer">
+      <p>
+        FPGA ML Inference Engine Using Approximate Computing · ECE 499 Group 3 ·
+        University of Victoria
+      </p>
+      <p className="footer-meta">
+        Handwriting classifier on Digilent Nexys A7 · Supervisor: Dr. Mihai Sima
+      </p>
     </footer>
   );
 }
